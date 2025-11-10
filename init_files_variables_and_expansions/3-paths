@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $PATH | find -type d | wc -l
+echo $(IFS=:; set -f; count=0; for d in $PATH; do [ -d "$d" ] && ((count++)); done; echo $count)
