@@ -2,9 +2,9 @@
 #4 bad luck, 8 is your chance
 x=0
 while [ $x -lt 10 ]; do
-	if [ $x = 4 ]; then
+	if [ $x = 3 ]; then
 		echo "bad luck"
-	elif [ $x = 8 ]; then
+	elif [ $x = 7 ]; then
 		echo "good luck"
 	else
 		echo "Best School"
