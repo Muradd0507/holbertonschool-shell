@@ -1,4 +1,7 @@
 #!/usr/bin/env bash
 #This is a loop example with WHILE
 x=0
-while [$x -ne 9]; do echo "Best School"; ((x++)); done
+while [$x -ne 9];do
+	echo "Best School";
+	((x++))
+done
