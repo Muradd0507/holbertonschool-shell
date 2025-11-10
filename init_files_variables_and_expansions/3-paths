@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $(IFS=:; set -f; count=0; for d in $PATH; do [ -d "$d" ] && ((count++)); done; echo $count)
+count=0; for dir in ${PATH//:/ }; do [ -d "$dir" ] && count=$((count + 1)); done; echo $count
