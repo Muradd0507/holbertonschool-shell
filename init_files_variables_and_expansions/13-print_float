@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $(($NUM/1)).$(($NUM%(1/10)))$(($NUM%(1/100)))
+echo "scale 2; $NUM%1" | bc
