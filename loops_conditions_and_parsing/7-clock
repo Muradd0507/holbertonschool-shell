@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+#Clock
+m=1
+h=0
+while [ $m -le 59 ]; do
+	if [ $m -eq 59 || $m -eq 1 ]; then
+		echo "Hour: "$h
+		((h++))
+	fi
+	echo $m
+	((m++))
+done
+
