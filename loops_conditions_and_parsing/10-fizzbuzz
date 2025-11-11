@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+#FizzBuzz
 x=1
 while [ $x -lt 100 ]; do
 	if (( $x % 3 == 0 && $x % 5 == 0 )); then
