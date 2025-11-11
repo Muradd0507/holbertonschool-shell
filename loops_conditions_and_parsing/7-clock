@@ -3,6 +3,9 @@
 m=1
 h=0
 while [ $m -le 59 ]; do
+	if [ $h -eq 13 ]; then
+		break
+	fi
 	if [ $m -eq 60 ] || [ $m -eq 1 ]; then
 		echo "Hour: "$h
 		((h++))
@@ -11,8 +14,5 @@ while [ $m -le 59 ]; do
 	((m++))
 	if [ $m -eq 60 ]; then
 		m=1
-	fi
-	if [ $h = 13 ]; then
-		break
 	fi
 done
