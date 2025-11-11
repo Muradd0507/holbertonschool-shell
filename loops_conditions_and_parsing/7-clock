@@ -12,4 +12,7 @@ while [ $m -le 59 ]; do
 	if [ $m -eq 60 ]; then
 		m=1
 	fi
+	if [ $h = 13 ]; then
+		break
+	fi
 done
