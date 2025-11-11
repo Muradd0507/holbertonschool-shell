@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 #Superstitious numbers
 x=1
-while [ $x -lt 20 ]; do
+while [ $x -lt 21 ]; do
 	case $x in
 		"4")
-			echo $x"\nbad luck from China" ;;
+			echo $x\n"bad luck from China" ;;
 		"9")
 			echo $x"\nbad luck from Japan" ;;
 		"17")
