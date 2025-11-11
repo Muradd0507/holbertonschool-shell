@@ -2,12 +2,12 @@
 #Clock
 m=1
 h=0
-while [ $h -lt 12 ]; do
+while [ $h -lt 13 ]; do
 	echo "Hour: "$h
-	(($h++))
+	((h++))
 	while [ $m -lt 60 ]; do
 		echo $m
-		(($m++))
+		((m++))
 	done
 	m=1
 
