@@ -13,4 +13,3 @@ while [ $m -le 59 ]; do
 		m=1
 	fi
 done
-
