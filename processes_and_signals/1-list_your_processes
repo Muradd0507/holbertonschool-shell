@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 #Write a Bash script that displays a list of currently running processes.
-x=$(ps)
+x=$(ps -e -f --forest)
 echo "$x"
