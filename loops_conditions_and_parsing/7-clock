@@ -7,7 +7,7 @@ while [ $m -le 59 ]; do
 		echo "Hour: "$h
 		((h++))
 	fi
-	if [ $h -eq 12 ]; then
+	if [ $h -eq 13 ]; then
 		break
 	fi
 	echo $m
