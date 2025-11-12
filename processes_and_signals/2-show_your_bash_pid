@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#Using your previous exercise command, write a Bash script that displays lines containing.
+ps aux | grep bash
+
