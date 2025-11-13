@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+#six
+pkill $(pgrep -f "7-highlander")
