@@ -2,4 +2,5 @@
 #Write a Bash script that displays To infinity and beyond indefinitely.
 while true; do
 	echo "a"
+	sleep 2
 done 
