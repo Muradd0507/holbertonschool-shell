@@ -1,2 +1,2 @@
-#!usr/bin/env bash
+#!/bin/bash
 tr [a-zA-Z][n-za-mN-ZA-M]
