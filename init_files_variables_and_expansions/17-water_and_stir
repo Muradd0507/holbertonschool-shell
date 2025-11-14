@@ -1,4 +1,2 @@
 #!/bin/bash
-water=$WATER
-stir=$STIR
-bestchol=$water+$stir
+echo $(( $(echo $WATER) + $(echo $STIR) ))
